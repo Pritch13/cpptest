@@ -9,7 +9,7 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::string name = "Sam";
+    std::string name = "Sam Pritchard";
     int age = 24;
     
     std::cout << "Hello, World! My name is " << name <<" and i am " << age << std::endl;
