@@ -9,7 +9,9 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::string name = "Sam";
+    int age = 24;
+    
+    std::cout << "Hello, World! My name is " << name <<" and i am " << age << std::endl;
     return 0;
 }
