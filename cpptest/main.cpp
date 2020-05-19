@@ -7,11 +7,22 @@
 //
 
 #include <iostream>
+#include <cmath>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    std::string name = "Sam Pritchard";
-    int age = 24;
-    
-    std::cout << "Hello, World! My name is " << name <<" and i am " << age << std::endl;
-    return 0;
+int cubeIt(int num1) {
+    return num1 * num1 * num1;
 }
+
+
+int main() {
+    int inputNum;
+    cout << "Gimme a number to cube... " << endl;
+    cin >> inputNum;
+    
+    cout << cubeIt(inputNum) << endl;
+}
+
+
+
+
